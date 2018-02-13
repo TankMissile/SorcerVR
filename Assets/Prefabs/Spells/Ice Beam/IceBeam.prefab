@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1450258321067542}
+  m_IsPrefabParent: 1
+--- !u!1 &1450258321067542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4318835647269632}
+  - component: {fileID: 114928106133982200}
+  m_Layer: 12
+  m_Name: IceBeam
+  m_TagString: target_enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318835647269632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450258321067542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114928106133982200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450258321067542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe543f69c4481d444ade8452b502b58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectorIcon: {fileID: 1342801808341008, guid: 6b215d20cbf36f64ca69878871de2f2e,
+    type: 2}
+  handEffect: {fileID: 1557483919134020, guid: 5375486985bcc0643806ec55fde9b0cf, type: 2}
+  baseDamage: 50
+  baseCost: 10
+  speed: 10
+  maxRange: 100
+  isHeld: 1
+  isChargeable: 0
+  maxChargeTime: 0
+  fireWhenCharged: 0
+  fullChargeScale: 1
+  chargeDamage: 50
+  chargeCost: 15
+  releaseProjectile: {fileID: 0}
+  isChanneled: 1
+  maxChannelTime: 0
+  beamStartPrefab: {fileID: 139372, guid: 278225bd49b408b499015f2ffe4c684d, type: 2}
+  beamEndPrefab: {fileID: 183254, guid: 237e04ccef5477b4cbf259d40ff6ce2e, type: 2}
+  beamPrefab: {fileID: 171132, guid: ec12fa2c8c41f4e42ad0426570cc186f, type: 2}
+  beamStart: {fileID: 0}
+  beamEnd: {fileID: 0}
+  beam: {fileID: 0}
+  beamEndOffset: 0.25
+  textureScrollSpeed: 8
+  textureLengthScale: 3

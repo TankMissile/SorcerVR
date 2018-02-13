@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 3268e8a6752832141b2ad6eaf68ab58e
+timeCreated: 1516341780
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - projectionPoint: {instanceID: 0}
+  - handEffectAnchor: {instanceID: 0}
+  - arcLine: {instanceID: 0}
+  - teleportTargetArrow: {instanceID: 0}
+  - spellSelector: {instanceID: 0}
+  - unknownIcon: {fileID: 1240793031600866, guid: 396941b2670f3dc46abf1f886ef26aed,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

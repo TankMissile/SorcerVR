@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1474353321089376}
+  m_IsPrefabParent: 1
+--- !u!1 &1474353321089376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4124746600530924}
+  - component: {fileID: 54308985525904852}
+  - component: {fileID: 33688428770165702}
+  - component: {fileID: 114877191097331406}
+  - component: {fileID: 114793676889591004}
+  - component: {fileID: 136022597288686798}
+  m_Layer: 12
+  m_Name: Fire Bullet
+  m_TagString: target_enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124746600530924
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33688428770165702
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54308985525904852
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 1
+--- !u!114 &114793676889591004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c0c0dcfdadb4243b614362bf2e231b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectorIcon: {fileID: 1375087688159222, guid: f4cf10ff5a2b6254bac5d22883559ad8,
+    type: 2}
+  handEffect: {fileID: 1436393970963532, guid: d54e5e872ae71a64a9f2a22941bf4493, type: 2}
+  baseDamage: 15
+  baseCost: 10
+  speed: 30
+  maxRange: 0
+  maxLifetime: 3
+  isHeld: 0
+  isChargeable: 0
+  maxChargeTime: 10000
+  fireWhenCharged: 0
+  fullChargeScale: 1
+  chargeDamage: 10
+  chargeCost: 10
+  releaseProjectile: {fileID: 0}
+  isChanneled: 0
+  maxChannelTime: 0
+--- !u!114 &114877191097331406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8ad01c3dc0c7446ba919e4054fe9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactParticle: {fileID: 138236, guid: b654791c58fa96f48a9a11f5e0c607f6, type: 2}
+  projectileParticle: {fileID: 1378654240472272, guid: 6c373d1005d5dcc43a580ef6d933d503,
+    type: 2}
+  muzzleParticle: {fileID: 196858, guid: 482f304ba2fc9734791d54b7a71cd136, type: 2}
+  trailParticles: []
+  impactNormal: {x: 0, y: 0, z: 0}
+--- !u!136 &136022597288686798
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474353321089376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.09
+  m_Height: 0.25
+  m_Direction: 2
+  m_Center: {x: 0, y: 0, z: -0.01}

@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 20f75483df361c243bc0949ff480af0b
+timeCreated: 1515142680
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: m002_BM_01.001_Mesh.008_Rathalos1_em002_BM_01.png
+    100002: m002_BM_01.002_Mesh.009_Rathalos1_em002_BM_01.png
+    100004: m002_BM_01.003_Mesh.012_Rathalos1_em002_BM_01.png
+    100006: m002_BM_01_Mesh.007_Rathalos1_em002_BM_01.png
+    100008: m002_BM_02.001_Mesh.003_Rathalos2_em002_BM_02.png
+    100010: m002_BM_02.002_Mesh.005_Rathalos2_em002_BM_02.png
+    100012: m002_BM_02.003_Mesh.010_Rathalos2_em002_BM_02.png
+    100014: m002_BM_02.004_Mesh.013_Rathalos2_em002_BM_02.png
+    100016: m002_BM_02.005_Mesh.014_Rathalos2_em002_BM_02.png
+    100018: m002_BM_02.006_Mesh.015_Rathalos2_em002_BM_02.png
+    100020: m002_BM_02_Mesh.001_Rathalos2_em002_BM_02.png
+    100022: m002_BM_03.001_Mesh.002_Rathalos3_em002_BM_03.png
+    100024: m002_BM_03.002_Mesh.004_Rathalos3_em002_BM_03.png
+    100026: m002_BM_03.003_Mesh.006_Rathalos3_em002_BM_03.png
+    100028: m002_BM_03.004_Mesh.011_Rathalos3_em002_BM_03.png
+    100030: m002_BM_03_Mesh_Rathalos3_em002_BM_03.png
+    100032: //RootNode
+    400000: m002_BM_01.001_Mesh.008_Rathalos1_em002_BM_01.png
+    400002: m002_BM_01.002_Mesh.009_Rathalos1_em002_BM_01.png
+    400004: m002_BM_01.003_Mesh.012_Rathalos1_em002_BM_01.png
+    400006: m002_BM_01_Mesh.007_Rathalos1_em002_BM_01.png
+    400008: m002_BM_02.001_Mesh.003_Rathalos2_em002_BM_02.png
+    400010: m002_BM_02.002_Mesh.005_Rathalos2_em002_BM_02.png
+    400012: m002_BM_02.003_Mesh.010_Rathalos2_em002_BM_02.png
+    400014: m002_BM_02.004_Mesh.013_Rathalos2_em002_BM_02.png
+    400016: m002_BM_02.005_Mesh.014_Rathalos2_em002_BM_02.png
+    400018: m002_BM_02.006_Mesh.015_Rathalos2_em002_BM_02.png
+    400020: m002_BM_02_Mesh.001_Rathalos2_em002_BM_02.png
+    400022: m002_BM_03.001_Mesh.002_Rathalos3_em002_BM_03.png
+    400024: m002_BM_03.002_Mesh.004_Rathalos3_em002_BM_03.png
+    400026: m002_BM_03.003_Mesh.006_Rathalos3_em002_BM_03.png
+    400028: m002_BM_03.004_Mesh.011_Rathalos3_em002_BM_03.png
+    400030: m002_BM_03_Mesh_Rathalos3_em002_BM_03.png
+    400032: //RootNode
+    2100000: Rathalos1_em002_BM_01.png
+    2100002: Rathalos2_em002_BM_02.png
+    2100004: Rathalos3_em002_BM_03.png
+    2300000: m002_BM_01.001_Mesh.008_Rathalos1_em002_BM_01.png
+    2300002: m002_BM_01.002_Mesh.009_Rathalos1_em002_BM_01.png
+    2300004: m002_BM_01.003_Mesh.012_Rathalos1_em002_BM_01.png
+    2300006: m002_BM_01_Mesh.007_Rathalos1_em002_BM_01.png
+    2300008: m002_BM_02.001_Mesh.003_Rathalos2_em002_BM_02.png
+    2300010: m002_BM_02.002_Mesh.005_Rathalos2_em002_BM_02.png
+    2300012: m002_BM_02.003_Mesh.010_Rathalos2_em002_BM_02.png
+    2300014: m002_BM_02.004_Mesh.013_Rathalos2_em002_BM_02.png
+    2300016: m002_BM_02.005_Mesh.014_Rathalos2_em002_BM_02.png
+    2300018: m002_BM_02.006_Mesh.015_Rathalos2_em002_BM_02.png
+    2300020: m002_BM_02_Mesh.001_Rathalos2_em002_BM_02.png
+    2300022: m002_BM_03.001_Mesh.002_Rathalos3_em002_BM_03.png
+    2300024: m002_BM_03.002_Mesh.004_Rathalos3_em002_BM_03.png
+    2300026: m002_BM_03.003_Mesh.006_Rathalos3_em002_BM_03.png
+    2300028: m002_BM_03.004_Mesh.011_Rathalos3_em002_BM_03.png
+    2300030: m002_BM_03_Mesh_Rathalos3_em002_BM_03.png
+    3300000: m002_BM_01.001_Mesh.008_Rathalos1_em002_BM_01.png
+    3300002: m002_BM_01.002_Mesh.009_Rathalos1_em002_BM_01.png
+    3300004: m002_BM_01.003_Mesh.012_Rathalos1_em002_BM_01.png
+    3300006: m002_BM_01_Mesh.007_Rathalos1_em002_BM_01.png
+    3300008: m002_BM_02.001_Mesh.003_Rathalos2_em002_BM_02.png
+    3300010: m002_BM_02.002_Mesh.005_Rathalos2_em002_BM_02.png
+    3300012: m002_BM_02.003_Mesh.010_Rathalos2_em002_BM_02.png
+    3300014: m002_BM_02.004_Mesh.013_Rathalos2_em002_BM_02.png
+    3300016: m002_BM_02.005_Mesh.014_Rathalos2_em002_BM_02.png
+    3300018: m002_BM_02.006_Mesh.015_Rathalos2_em002_BM_02.png
+    3300020: m002_BM_02_Mesh.001_Rathalos2_em002_BM_02.png
+    3300022: m002_BM_03.001_Mesh.002_Rathalos3_em002_BM_03.png
+    3300024: m002_BM_03.002_Mesh.004_Rathalos3_em002_BM_03.png
+    3300026: m002_BM_03.003_Mesh.006_Rathalos3_em002_BM_03.png
+    3300028: m002_BM_03.004_Mesh.011_Rathalos3_em002_BM_03.png
+    3300030: m002_BM_03_Mesh_Rathalos3_em002_BM_03.png
+    4300000: m002_BM_01.001_Mesh.008_Rathalos1_em002_BM_01.png
+    4300002: m002_BM_01.002_Mesh.009_Rathalos1_em002_BM_01.png
+    4300004: m002_BM_01.003_Mesh.012_Rathalos1_em002_BM_01.png
+    4300006: m002_BM_01_Mesh.007_Rathalos1_em002_BM_01.png
+    4300008: m002_BM_02.001_Mesh.003_Rathalos2_em002_BM_02.png
+    4300010: m002_BM_02.002_Mesh.005_Rathalos2_em002_BM_02.png
+    4300012: m002_BM_02.003_Mesh.010_Rathalos2_em002_BM_02.png
+    4300014: m002_BM_02.004_Mesh.013_Rathalos2_em002_BM_02.png
+    4300016: m002_BM_02.005_Mesh.014_Rathalos2_em002_BM_02.png
+    4300018: m002_BM_02.006_Mesh.015_Rathalos2_em002_BM_02.png
+    4300020: m002_BM_02_Mesh.001_Rathalos2_em002_BM_02.png
+    4300022: m002_BM_03.001_Mesh.002_Rathalos3_em002_BM_03.png
+    4300024: m002_BM_03.002_Mesh.004_Rathalos3_em002_BM_03.png
+    4300026: m002_BM_03.003_Mesh.006_Rathalos3_em002_BM_03.png
+    4300028: m002_BM_03.004_Mesh.011_Rathalos3_em002_BM_03.png
+    4300030: m002_BM_03_Mesh_Rathalos3_em002_BM_03.png
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
